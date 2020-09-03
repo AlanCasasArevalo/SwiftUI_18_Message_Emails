@@ -15,6 +15,7 @@
 		518E51BC250117120023D77C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518E51BA250117120023D77C /* LaunchScreen.storyboard */; };
 		518E51C4250118100023D77C /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E51C3250118100023D77C /* MessagesView.swift */; };
 		518E51C62501181D0023D77C /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E51C52501181D0023D77C /* EmailView.swift */; };
+		518E51C925011CEC0023D77C /* TextField+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E51C825011CEC0023D77C /* TextField+UIApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		518E51BD250117120023D77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		518E51C3250118100023D77C /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		518E51C52501181D0023D77C /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
+		518E51C825011CEC0023D77C /* TextField+UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+UIApplication.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		518E51AE2501170F0023D77C /* SwiftUI_18_Message_Emails */ = {
 			isa = PBXGroup;
 			children = (
+				518E51C725011CCE0023D77C /* Extensions */,
 				518E51AF2501170F0023D77C /* AppDelegate.swift */,
 				518E51B12501170F0023D77C /* SceneDelegate.swift */,
 				518E51C3250118100023D77C /* MessagesView.swift */,
@@ -79,6 +82,14 @@
 				518E51B8250117120023D77C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		518E51C725011CCE0023D77C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				518E51C825011CEC0023D77C /* TextField+UIApplication.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +167,7 @@
 				518E51B02501170F0023D77C /* AppDelegate.swift in Sources */,
 				518E51B22501170F0023D77C /* SceneDelegate.swift in Sources */,
 				518E51B42501170F0023D77C /* ContentView.swift in Sources */,
+				518E51C925011CEC0023D77C /* TextField+UIApplication.swift in Sources */,
 				518E51C62501181D0023D77C /* EmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
