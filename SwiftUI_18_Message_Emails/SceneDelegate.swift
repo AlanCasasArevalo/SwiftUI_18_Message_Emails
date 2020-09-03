@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  SwiftUI_18_Message_Emails
-//
-//  Created by Everis on 03/09/2020.
-//  Copyright © 2020 Alan. All rights reserved.
-//
 
 import UIKit
 import SwiftUI
