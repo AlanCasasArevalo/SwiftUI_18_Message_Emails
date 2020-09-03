@@ -26,6 +26,7 @@ struct MessagesView: View {
                         .foregroundColor(.red)
                         .bold()
                 }
+                Spacer()
             }
             .navigationBarTitle("Message")
             .padding()
