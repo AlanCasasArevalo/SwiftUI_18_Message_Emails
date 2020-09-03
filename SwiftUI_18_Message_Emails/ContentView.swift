@@ -3,7 +3,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        TabView {
+            MessagesView().tabItem {
+                Image(systemName: "message.fill")
+            }
+            EmailView().tabItem {
+                Image(systemName: "envelope.fill")
+            }
+        }
     }
 }
 

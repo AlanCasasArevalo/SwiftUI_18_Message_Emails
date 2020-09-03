@@ -13,6 +13,8 @@
 		518E51B6250117120023D77C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518E51B5250117120023D77C /* Assets.xcassets */; };
 		518E51B9250117120023D77C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518E51B8250117120023D77C /* Preview Assets.xcassets */; };
 		518E51BC250117120023D77C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518E51BA250117120023D77C /* LaunchScreen.storyboard */; };
+		518E51C4250118100023D77C /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E51C3250118100023D77C /* MessagesView.swift */; };
+		518E51C62501181D0023D77C /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E51C52501181D0023D77C /* EmailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		518E51B8250117120023D77C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		518E51BB250117120023D77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		518E51BD250117120023D77C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		518E51C3250118100023D77C /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		518E51C52501181D0023D77C /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				518E51AF2501170F0023D77C /* AppDelegate.swift */,
 				518E51B12501170F0023D77C /* SceneDelegate.swift */,
+				518E51C3250118100023D77C /* MessagesView.swift */,
+				518E51C52501181D0023D77C /* EmailView.swift */,
 				518E51B32501170F0023D77C /* ContentView.swift */,
 				518E51B5250117120023D77C /* Assets.xcassets */,
 				518E51BA250117120023D77C /* LaunchScreen.storyboard */,
@@ -146,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				518E51C4250118100023D77C /* MessagesView.swift in Sources */,
 				518E51B02501170F0023D77C /* AppDelegate.swift in Sources */,
 				518E51B22501170F0023D77C /* SceneDelegate.swift in Sources */,
 				518E51B42501170F0023D77C /* ContentView.swift in Sources */,
+				518E51C62501181D0023D77C /* EmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
